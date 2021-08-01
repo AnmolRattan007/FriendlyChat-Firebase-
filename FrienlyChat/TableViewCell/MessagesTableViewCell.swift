@@ -9,10 +9,14 @@ import UIKit
 
 class MessagesTableViewCell: UITableViewCell {
     
-    @IBOutlet weak var name: UILabel!
     @IBOutlet weak var message: UILabel!
     
-
+    @IBOutlet weak var photo: UIImageView!{
+        didSet{
+            photo.image = UIImage(systemName: "ic_account_circle.png")
+        }
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
        

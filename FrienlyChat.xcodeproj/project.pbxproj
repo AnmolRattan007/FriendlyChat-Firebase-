@@ -11,6 +11,7 @@
 		BB82612E26B53E3900E1C0B0 /* FCTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB82612D26B53E3900E1C0B0 /* FCTableViewDataSource.swift */; };
 		BB82613126B53EB000E1C0B0 /* FCTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB82613026B53EB000E1C0B0 /* FCTableViewDelegate.swift */; };
 		BB82613426B54C7700E1C0B0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB82613326B54C7700E1C0B0 /* Extensions.swift */; };
+		BB82613726B574D900E1C0B0 /* FCImagePickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB82613626B574D900E1C0B0 /* FCImagePickerDelegate.swift */; };
 		BB859C9926B14F9800ACD101 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB859C9826B14F9800ACD101 /* AppDelegate.swift */; };
 		BB859C9B26B14F9800ACD101 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB859C9A26B14F9800ACD101 /* SceneDelegate.swift */; };
 		BB859C9D26B14F9800ACD101 /* FCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB859C9C26B14F9800ACD101 /* FCViewController.swift */; };
@@ -30,6 +31,7 @@
 		BB82612D26B53E3900E1C0B0 /* FCTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCTableViewDataSource.swift; sourceTree = "<group>"; };
 		BB82613026B53EB000E1C0B0 /* FCTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCTableViewDelegate.swift; sourceTree = "<group>"; };
 		BB82613326B54C7700E1C0B0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BB82613626B574D900E1C0B0 /* FCImagePickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCImagePickerDelegate.swift; sourceTree = "<group>"; };
 		BB859C9526B14F9700ACD101 /* FrienlyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrienlyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB859C9826B14F9800ACD101 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB859C9A26B14F9800ACD101 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				BB859C9C26B14F9800ACD101 /* FCViewController.swift */,
 				BB82612D26B53E3900E1C0B0 /* FCTableViewDataSource.swift */,
 				BB82613026B53EB000E1C0B0 /* FCTableViewDelegate.swift */,
+				BB82613626B574D900E1C0B0 /* FCImagePickerDelegate.swift */,
 			);
 			path = FCViewController;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB859C9D26B14F9800ACD101 /* FCViewController.swift in Sources */,
+				BB82613726B574D900E1C0B0 /* FCImagePickerDelegate.swift in Sources */,
 				BB82613426B54C7700E1C0B0 /* Extensions.swift in Sources */,
 				BB82611E26B53CCE00E1C0B0 /* MessagesTableViewCell.swift in Sources */,
 				BB859C9926B14F9800ACD101 /* AppDelegate.swift in Sources */,
